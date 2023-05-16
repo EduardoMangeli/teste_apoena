@@ -1,0 +1,23 @@
+[
+    {
+        "categoria": "Lazer",
+        "instituicao": "BB",
+        "data": "28/01/1987",
+        "descricao": "Pagamento de pedalinho.",
+        "valor": 35.0
+    },
+    {
+        "categoria": "Combustível",
+        "instituicao": "Itaú",
+        "data": "28/01/1976",
+        "descricao": "Gasolina.",
+        "valor": 4.0
+    },
+    {
+        "categoria": "Alimentação",
+        "instituicao": "Bradesco",
+        "data": "30/01/1976",
+        "descricao": "Sanduíche do Gordon.",
+        "valor": 1504.0
+    }
+]

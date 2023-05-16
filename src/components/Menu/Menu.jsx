@@ -5,6 +5,7 @@ const Menu = () => (
     <MeuNav>
         <Link to="/">Home</Link>
         <Link to="/teste">Teste</Link>
+        <Link to="/transacoes">Transações</Link>
     </MeuNav>
 );
 

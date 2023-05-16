@@ -1,6 +1,6 @@
 import { Categoria, Container, Data, Descricao, Instituicao, Valor } from "./Style";
 
-const Card = ( props ) => (
+const ItemExtrato = ( props ) => (
     <Container>
         <Categoria>{props.cat}</Categoria>
         <Instituicao>{props.inst}</Instituicao>
@@ -10,4 +10,4 @@ const Card = ( props ) => (
     </Container>
 );
 
-export default Card;
+export default ItemExtrato;

@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import {createBrowserRouter, RouterProvider} from 
 "react-router-dom";
 import Teste from './pages/Teste';
+import Transacoes from './pages/Transacoes';
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
   {
     path: "teste",
     element: <Teste />
+  },
+  {
+    path: "transacoes",
+    element: <Transacoes />
   }
 ])
 
