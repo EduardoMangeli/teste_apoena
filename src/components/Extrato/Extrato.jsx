@@ -1,11 +1,21 @@
 import ItemExtrato from "../ItemExtrato/ItemExtrato";
 import Container from "./Style";
-import transacoes from "../../data/transacoes.json";
+import dados from "../../data/transacoes.json";
 import { useState, useRef } from "react";
 
 const Extrato = () => {
     const valor = useRef();
     const [texto, setTexto] = useState('');
+    const [transacoes, setTransacoes] = useState(dados);
+
+    const filtra = (entrada) => {
+        
+        setTransacoes(dados.filter(
+            (e) => {
+               return e.descricao.toLowerCase().includes(entrada.toLowerCase())
+            }
+            ));
+    }
 
     return (
             <Container>
@@ -23,7 +33,7 @@ const Extrato = () => {
                         )
                     )
                 }
-                <input type='text' onChange={(e) => setTexto(e.target.value)}/>
+                <input type='text' onChange={(e) => filtra(e.target.value)}/>
                 <span ref={valor}>{texto}</span>
             </Container>
     );
