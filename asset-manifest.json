@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/teste_apoena/static/css/main.e6c13ad2.css",
-    "main.js": "/teste_apoena/static/js/main.7e765656.js",
+    "main.js": "/teste_apoena/static/js/main.fd41facb.js",
     "static/js/787.e4c9b368.chunk.js": "/teste_apoena/static/js/787.e4c9b368.chunk.js",
     "index.html": "/teste_apoena/index.html",
     "main.e6c13ad2.css.map": "/teste_apoena/static/css/main.e6c13ad2.css.map",
-    "main.7e765656.js.map": "/teste_apoena/static/js/main.7e765656.js.map",
+    "main.fd41facb.js.map": "/teste_apoena/static/js/main.fd41facb.js.map",
     "787.e4c9b368.chunk.js.map": "/teste_apoena/static/js/787.e4c9b368.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.7e765656.js"
+    "static/js/main.fd41facb.js"
   ]
 }
