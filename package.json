@@ -2,7 +2,7 @@
   "name": "apoena",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://EduardoMangeli.github.io/teste_apoena",
+  "homepage": "https://eduardomangeli.github.io/teste_apoena",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
